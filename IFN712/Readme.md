@@ -5,7 +5,8 @@
 + **课题概览**  
     topics.md
 
-+ **作业内容**
++ **课题内容与背景介绍**  
+    technical_background.md
 
 + **时间安排**
 
