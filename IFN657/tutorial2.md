@@ -24,4 +24,5 @@ Multipass是一个用于安装与使用Ubuntu Linux的VM工具，类似于VMWare
 
 + 开发工具讲解
     1. notepad++
-    2. 
+    2. Atom 用于macbook
+    3. Visual studio code 跨平台
