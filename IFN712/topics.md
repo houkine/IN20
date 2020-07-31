@@ -61,3 +61,32 @@
       
     可能需要用到的技术：  
     Matlab. 
+    
+4. **Vehilce2VulnerableRoadUser solution with BLE 5x(1)**  
+    Vehicle to Vulnerable Road User Communication: Survey, Design Considerations, and Challenges  
+    车辆到弱势道路用户的交流：调查，设计考虑和挑战  
+      
+    大致内容包括：
+    + 基于蜂窝和基于DSRC  Cellular based and DSRC
+    + 蓝牙5x Bluetooth 5x
+    + 现有ITS框架在室外环境中如何使蓝牙  how Bluetooth can be meaningful in outdoor environment with existing ITS framework
+    + 可靠的连接以及延迟和可伸缩性  reliable connection along with latency and scalability
+      
+    可选方向包括：
+    + What are the safety issues of vulnerable road users (VRUs) in the transportation system?  
+    运输系统中易受伤害的道路使用者（VRU）的安全问题是什么？
+    + How can technology provide safety solutions for the VRUs? What is the state of arts of such solution effort in academia?   
+    技术如何为VRU提供安全解决方案？这种解决方案在学术界的最新状况是什么？
+    + How is the emerging intelligent transportation system accomodating VRU solution?   
+    新兴的智能交通系统如何适应VRU解决方案？
+    + How can wireless technology help to bring VRU in active communication with other road entities?  
+    无线技术如何帮助使VRU与其他道路实体进行主动通信？
+    + What is the state of arts Bluetooth enabled solution (developed/proposed?)  
+    最新的蓝牙支持解决方案（已开发/提议）是什么？
+    + What are the advance features comes with BLE 5x that may leverage the VRU road solutions?  
+    什么是高级功能自带有BLE 5X可充分利用VRU道路的解决方案？
+    + How to develop BLE based technology that will provide communication and positioning solution for VRUs on road?  
+    如何开发基于BLE的技术，该技术将为道路上的VRU提供通信和定位解决方案？
+      
+    可能需要用到的技术：  
+    Python, Raspberry Pi3, Nordic Bluetooth Development Kit 
