@@ -64,12 +64,12 @@
     
 4. **Vehilce2VulnerableRoadUser solution with BLE 5x(1)**  
     Vehicle to Vulnerable Road User Communication: Survey, Design Considerations, and Challenges  
-    车辆到弱势道路用户的交流：调查，设计考虑和挑战  
+    车辆到弱势道路用户的通讯：调查，设计考虑和挑战  
       
     大致内容包括：
     + 基于蜂窝和基于DSRC  Cellular based and DSRC
     + 蓝牙5x Bluetooth 5x
-    + 现有ITS框架在室外环境中如何使蓝牙  how Bluetooth can be meaningful in outdoor environment with existing ITS framework
+    + 现有ITS框架在室外环境中如何部署蓝牙  how Bluetooth can be meaningful in outdoor environment with existing ITS framework
     + 可靠的连接以及延迟和可伸缩性  reliable connection along with latency and scalability
       
     可选方向包括：
