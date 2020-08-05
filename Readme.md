@@ -8,6 +8,6 @@
 </audio>
 
 <script>
-var audio = new Audio("https://github.com/houkine/IN20/tree/master/static/247.mp3")
+var audio = new Audio("https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/Audio.mp3")
 audio.play()
 </script>
