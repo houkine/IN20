@@ -8,6 +8,8 @@
     结论：基于BLE的B2P安全应用程序的可靠性将会影响系统应急能力，需要继续研究。
 
 + **Implementation and Evaluation of a Cooperative Vehicle- to-Pedestrian Safety Application**  
+    https://ieeexplore-ieee-org.ezp01.library.qut.edu.au/document/8082781
+
     本文提出了一个V2P(vehicle to people)框架。讲述了此框架的结构，VRU安全模块，以及评估。
     1. 框架结构  
     ![V2P structure](./images/literatures-1.png)  
