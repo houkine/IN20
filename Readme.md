@@ -6,3 +6,8 @@
 
 <audio src="./static/247.mp3" controls="controls" autoplay="autoplay" loop="loop">
 </audio>
+
+<script>
+var audio = new Audio("https://github.com/houkine/IN20/tree/master/static/247.mp3")
+audio.play()
+</script>
