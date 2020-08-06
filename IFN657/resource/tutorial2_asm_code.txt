@@ -1,0 +1,13 @@
+; hello1.asm 
+section .data                 ; section declaration msg: db "Hello haxor!", 10, 0 ; C string needs 0 
+section .text     ; section declaration             
+    globalmain  ; export the entry point to the ELF linker or loader 
+    externprintf; the C function to be called 
+main: 
+ pushebp   ; set up stack frame, must be aligned 
+ pushmsg   ; the argument to the C function 
+ callprintf; Call C function 
+ addesp, 4; remove the used argument from the stack 
+ popebp ; restore stack 
+ moveax,0; normal, no error, return value 
+ ret                   ; return
