@@ -57,8 +57,8 @@
     "(gdb)break [xxx]"  
     接着继续运行，可以看到程序在断点处停止了。此时可以使用"(gdb)continue"或者"(gdb)step"继续调试，也可以在断点处查看程序运行情况。可以简单尝试一下tutorial上面的命令
     4. 退出
-    "(gdb)quit"
-    ![gdb](../images/tutorial3_image15.png)
+    "(gdb)quit"  
+    ![gdb](../images/tutorial3_image15.png)  
 
 
 ## 附录
