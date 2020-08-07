@@ -5,14 +5,14 @@
     需要准备的有gcc,gdb,gcc-multilib,nasm。可以统一使用apt install安装，我下面会逐一解释用法。
     1. gcc和gdb在tutorial2中已经讲过了。这次检查一下是否有装。  
     ![check gcc,gdb](../images/tutorial3_image1.png)  
-    2. gcc-multilib的作用是选择生成的文件适用于32位或者是64位系统。一般现在都是64位系统，不安装也没事。不过还是跟着教程走一下。  
+    2. gcc-multilib的作用是选择生成的文件适用于32位或者是64位系统。一般现在都是64位系统，只是此处用的nasm只支持32位程序，所以还是要做一下。  
     下载安装会等一会儿。  
     ![download gcc-multilib](../images/tutorial3_image2.png)  
     3. 安装nasm。nasm是一款汇编与反汇编工具，可以将可执行文件解码成汇编文本。  
     ![download nasm](../images/tutorial3_image3.png)  
 
 + **程序准备**  
-    准备一个C语言编写的程序，用于使用nasm解码为汇编程序。
+    准备一个C语言编写的程序，和一个用于使用nasm解码的C语言版本汇编程序。
     1. 首先用C语言编写一个HelloWorld程序。  
     ![HelloWorld program in C](../images/tutorial3_image4.png)  
     2. 运行C语言。不知道怎么在Linux上运行C程序的小伙伴请看附录。
@@ -53,10 +53,10 @@
     "(gdb)file [XXX]",XXX为文件名  
     "(gdb)run"
     绑定运行文件是必须先做的，不然无法进行后续操作。
-    3. 设置断点
+    3. 设置断点  
     "(gdb)break [xxx]"  
     接着继续运行，可以看到程序在断点处停止了。此时可以使用"(gdb)continue"或者"(gdb)step"继续调试，也可以在断点处查看程序运行情况。可以简单尝试一下tutorial上面的命令
-    4. 退出
+    4. 退出  
     "(gdb)quit"  
     ![gdb](../images/tutorial3_image15.png)  
 
