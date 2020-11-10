@@ -91,6 +91,16 @@ def astar_tree_search(problem, h=None):
 h1<=h2+c1  
 为什么呢？因为h是在当前节点的估计值，是保守估计的（admissible）。它的值会小于c1。换句话说，当人在计算h1时，并不知道c1是多少。此时h1实际上是由h2 + evaluate c1 得到的， 而 evaluate c1 一定<= c1， 因为admissible的存在。 然后等走到n1时候，知道了实际开销c1， 那么就不必再evaluate了。那么evaluate c1 <= c1 ，evaluate c1 + h2 也一定 <= c1 + h2 也就是 h1<=h2+c1  
 例题中有给图让分析h的范围，就以此判断。注意，如果节点n有多条前置路径， 那么 h(n)+c(n-1)必须大于h(n-1), 对所有路径都要满足。
++ 神经网络  
+RL：公式：Q(s,a) = (1 - lr) x Q(s,a) + lr x (r + d x max(Q(new state,action)))  
+lr: learning rate  
+r: reward  
+new state: the state arrived in after take action Q (s,a)
+d: discount  
+RL会采用随机选择策略：为了 explore the policy space， 可以找到更好的action  
+反向传播算法： 输入2个值，输出1个值，中间有多种变换，题目会给。  
+输入为x1,x2。内部多个节点，分为多层。每层会与前一层有连接，根据激活函数不同。作图时，要注意连接，表现为+或者-，则要连。  
+卷积：矩阵乘法
 + 编辑距离  
 DP的一个内容，讲的是2个字符串s1,s2， 从s1变化到s2需要花费的最短路径。变化分为增加，减少，替换，各为1 cost。现在，可以画一张表格来表示其最短路径。  
 ![consistency](./images/exam_02.png)  
